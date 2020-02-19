@@ -21,7 +21,9 @@ sed -i -e 's/plugins=(git/plugins=(git zsh-autosuggestions zsh-syntax-highlighti
 #append bindkey
 echo "bindkey '^ ' autosuggest-accept" > ~/.zshrc
 echo "bindkey '^f' forward-word" > ~/.zshrc
-alias gs="git status"
+echo "alias gs='git status'" > ~/.zshrc
+source ~/.zshrc
+
 
 
 
