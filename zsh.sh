@@ -15,6 +15,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/plug
 #add zsh-autosuggestions plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
 
+#backup zshrc
+cp ~/.zshrc ~/.zshrc.bk
+
 #enable plugin in zshrc
 sed -i -e 's/plugins=(git/plugins=(git zsh-autosuggestions zsh-syntax-highlighting fzf/g' ~/.zshrc
 
