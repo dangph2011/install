@@ -19,9 +19,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/
 sed -i -e 's/plugins=(git/plugins=(git zsh-autosuggestions zsh-syntax-highlighting fzf/g' ~/.zshrc
 
 #append bindkey
-echo "bindkey '^ ' autosuggest-accept" > ~/.zshrc
-echo "bindkey '^f' forward-word" > ~/.zshrc
-echo "alias gs='git status'" > ~/.zshrc
+echo "bindkey '^ ' autosuggest-accept" >> ~/.zshrc
+echo "bindkey '^f' forward-word" >> ~/.zshrc
+echo "alias gs='git status'" >> ~/.zshrc
 source ~/.zshrc
 
 
