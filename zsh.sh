@@ -7,7 +7,7 @@ sudo apt-get install zsh curl git -y
 chsh -s $(which zsh)
 
 #install zsh by using curl
-sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" -y
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" -y
 
 #install fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
